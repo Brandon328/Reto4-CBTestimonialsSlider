@@ -50,6 +50,3 @@ No dudes en utilizar cualquier flujo de trabajo con el que te sienta más cómod
 
 **Diviértete y disfruta creando éste reto!** 🚀
 
-## Créditos por el diseño y reto.
-
-Este reto pertenece a la lista de retos de [Frontend Mentor](https://www.frontendmentor.io)
