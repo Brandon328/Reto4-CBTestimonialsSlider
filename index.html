@@ -19,13 +19,19 @@
 
 <body>
   <main>
-    <div class="pinctures-container">
-      <figure class="profile-container">
-        <img src="./images/image-tanya.jpg" alt="profile picture">
+    <figure class="profile-container">
+      <img src="./images/pattern-bg.svg" alt="background">
+      <figure>
+        <img src="./images/image-tanya.jpg" alt="profile picture" class="profile-picture">
+        <img src="./images/image-john.jpg" alt="profile picture" class="profile-picture d-none">
+        <div class="slide-buttons">
+          <img src="./images/icon-prev.svg" alt="arrow" id="prev">
+          <img src="./images/icon-next.svg" alt="arrow" id="next">
+        </div>
       </figure>
-      <img src="./images/pattern-quotes.svg" alt="quotes figure">
-      <img src="./images/pattern-curve.svg" alt="curve figure">
-    </div>
+    </figure>
+    <img class="curve-picture" src="./images/pattern-curve.svg" alt="curve figure">
+
     <div class="profile-info">
       <p>
         “ I’ve been interested in coding for a while but never taken the jump, until
@@ -33,22 +39,26 @@
         dreams and so excited about the future. ”
       </p>
       <p>
-        <bold>Tanya Sinclair</bold>
+        <span>Tanya Sinclair</span>
         <span>UX Engineer</span>
       </p>
+      <img class="quotes-picture" src="./images/pattern-quotes.svg" alt="quotes figure">
     </div>
-    <div style="display: none;" class="profile-info">
+    <div class="profile-info d-none">
       <p>
         “ If you want to lay the best foundation possible I’d recommend taking this
         course. The depth the instructors go into is incredible. I now feel so
         confident about starting up as a professional developer. ”
       </p>
       <p>
-        <bold>John Tarkpor</bold>
+        <span>John Tarkpor</span>
         <span>Junior Front-end Developer</span>
       </p>
+      <img class="quotes-picture" src="./images/pattern-quotes.svg" alt="quotes figure">
     </div>
   </main>
+
+  <script src="main.js"></script>
 </body>
 
 </html>
