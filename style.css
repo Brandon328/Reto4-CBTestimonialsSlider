@@ -96,6 +96,12 @@ figure {
   margin-block-start: 56px;
 }
 
+.profile-info p {
+  text-shadow: 6px 2px 4px #FFFFFF,
+    -3px -3px 4px #FFFFFF,
+    0px 0px 20px #FFFFFF;
+}
+
 .profile-info .quotes-picture {
   width: 72px;
   display: block;
@@ -103,6 +109,7 @@ figure {
   position: absolute;
   top: -20px;
 }
+
 
 .profile-info p:nth-child(1) {
   font-size: 20px;
